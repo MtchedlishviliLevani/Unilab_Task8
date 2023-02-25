@@ -152,6 +152,9 @@ header li:not(:nth-child(4)):hover {
     grid-column: 2/3;
     font-family: var(--submit--ff-regular);
     border: 1px solid var(--title-color);
+    color:black;
+    text-align: center;
+    padding-top: 9px;
     border-radius: 43px;
     line-height: 19.2px;
     width: 149px;
@@ -470,7 +473,7 @@ font-size: var(--size-18);
 line-height: 21px;
 }
 
-button:hover{
+button:hover, .submit-button:hover{
     background-color: var(--title-color);
     color: #FFF;
     cursor: pointer;
